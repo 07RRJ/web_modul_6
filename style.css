@@ -1,0 +1,165 @@
+*:active>*{
+    outline: solid black 1px;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: monospace;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(141, 133, 133);
+}
+
+nav{
+    padding-inline: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+        /* Links */
+
+a{
+    color: black;
+    transition: 50ms;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: orange;
+}
+
+.primary_navigation{
+    display: flex;
+    list-style: none;
+    font-size: 1.125rem;
+    gap: 1rem;
+}
+
+        /* End links */
+
+body{
+    background-color: white;
+}
+
+.flex_layout{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+section{
+    background-color: aliceblue;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    font-style: italic;
+}
+
+.logo{
+    width: 32px;
+    height: 32px;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: monospace;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(141, 133, 133);
+}
+
+nav{
+    padding-inline: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+a{
+    color: black;
+    transition: 50ms;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: orange;
+}
+
+.primary_navigation{
+    display: flex;
+    list-style: none;
+    font-size: 1.125rem;
+    gap: 1rem;
+}
+
+body{
+    background-color: white;
+}
+
+.flex_layout{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+article{
+    background-color: azure;
+    display: grid;
+    gap: 1.5rem;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: auto;
+}
+
+h1{
+    grid-column: span 2;
+    text-align: center;
+}
+
+section{
+    background-color: aliceblue;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    font-style: italic;
+    grid-row: span 3;
+}
+
+.logo{
+    width: 32px;
+    height: 32px;
+}
+
+        /* footer */
+
+footer{
+    position: sticky;
+    background-color: rgb(141, 133, 133);
+}
